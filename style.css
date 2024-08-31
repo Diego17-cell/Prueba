@@ -1,0 +1,71 @@
+/** * se usa como selector universal es decir aplica modificaciones a absolitamente todo **/
+*{
+    box-sizing: border-box; /** Elimina los ajustes de caja del navegador y aplica los que yo deseo**/
+}
+html{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0%;
+}
+header{
+    background-color: rgb(188, 242, 242);
+    color: blueviolet;
+    text-align: center;
+    padding: 10px; /* el padin es hacia adentro de la caja*/
+    margin: 10px; /* el margin es hacia afuera de la caja*/
+}
+
+nav{
+    background-color: rgb(248, 166, 166);
+}
+
+main{
+    background-color: rgb(232, 242, 213);
+}
+
+footer{
+    background-color: rgb(213, 154, 213);
+    padding: 10px;
+}
+
+/*aca estamos llamando un hijo de otra etiqueta*/
+footer p{
+    text-align: center;
+    font size: 14px;
+    
+}
+
+p{
+    text-align: justify;
+    line-height: 22px; /** espacios entre lineas **/
+}
+
+img{
+    width: 100%;
+    margin: 20px auto;
+}
+
+.imagen{
+    width: 50%;
+    margin: auto;
+}
+
+.galeria {
+    background-color: rgb(126, 218, 126);
+}
+
+/*este es un ejemplo de clase se llama con un punto al inicio y se puede usar repetidas veces la clase*/
+.galeria img{
+    width: 150px;
+    height: 150px;
+    border: 7px inset rgb(67, 43, 204);
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+/* este es un ej de id lo llamamos con un # y solo lo podemos usar una vez*/
+#diferente {
+    border-radius: 50%;
+}
+
